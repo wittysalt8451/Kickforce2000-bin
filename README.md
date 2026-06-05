@@ -43,7 +43,7 @@ dfu-util -a 0 -s 0x08000000:leave -D kickforce2000_vX.X.X.bin
 
 ## Switches
 
-### SW 0 — Distortion
+### Distortion / Kick character
 
 | Position | Mode | Character |
 |----------|------|-----------|
@@ -51,13 +51,13 @@ dfu-util -a 0 -s 0x08000000:leave -D kickforce2000_vX.X.X.bin
 | C | Foldback | Dense harmonics; Color controls a comb filter |
 | R | FM | Frequency modulation algorithm; Color sets the FM ratio |
 
-### SW 1 — Sidechain
+### Creative Sidechain
 
 Controls how the stereo input relates to the kick.
 
 | Position | Mode | Behaviour |
 |----------|------|-----------|
-| L | Bypass | Stereo input passed through unaffected |
+| L | Thru / Bypass | Stereo input passed through unaffected |
 | C | Sidechain duck | Full silence during the kick; dry passthrough between hits |
 | R | Gate | Input audible only during the kick itself |
 
